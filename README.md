@@ -20,7 +20,7 @@ There are many advantages to incorporating this software technique into our code
 
 <b>Risk reduction and security</b>: You can revert your product or functionality immediately if you detect a bug or receive negative feedback. So, you could test your new features in production while collecting feedback from users.
 
-<h2> 💪: How do we implement it? - Hey, Ho! Let’s go!</h2>
+<h2> 💪 How do we implement it? - Hey, Ho! Let’s go!</h2>
 There are several ways to implement a Feature Flag, in my opinion, the ideal way would be to have these flags remotely and update them in our local device, to avoid making many calls to the API service.
 
 One way to develop it would be to make a call to our API service that would return a JSON object where all our feature flags values are stored, and when we start the application we could load and store them locally.
